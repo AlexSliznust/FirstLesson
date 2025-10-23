@@ -41,7 +41,7 @@ public class Main {
         new Thread(myTask,"MyTask").start();
 
         try{
-            Thread.sleep(1100);
+            Thread.sleep(1500);
 
             myTask.disable();  // завершаем поток
 
